@@ -118,7 +118,7 @@ bool LinkedList<T>::removeBack()
 
 
 
-
+	//finished remove back function
 
 	return(isRemoved);
 }
