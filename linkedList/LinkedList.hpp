@@ -36,6 +36,7 @@ int LinkedList<T>::size() const
 template <typename T>
 bool LinkedList<T>::search(T value) const
 {
+	//search improved ability
 	Node<T>* temp = nullptr;
 	bool isFound = false;
 	if(m_front != nullptr){
