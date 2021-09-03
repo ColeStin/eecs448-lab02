@@ -29,6 +29,7 @@ bool LinkedList<T>::isEmpty() const
 template <typename T>
 int LinkedList<T>::size() const
 {
+	//returning size
 	return(m_size);
 }
 
